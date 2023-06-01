@@ -1,0 +1,134 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso de Sistemas de Informação - UEMG Carangola</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">UEMG Carangola</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#courses">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Curso de Sistemas de Informação</h1>
+      <p class="lead">Universidade do Estado de Minas Gerais - Carangola</p>
+      <a class="btn btn-light btn-lg" href="#contact">Entre em contato</a>
+    </div>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Sobre o curso</h2>
+          <p>
+            O curso tem por objetivo a formação de profissionais capacitados para atuar na busca de soluções nas diferentes áreas de aplicação,
+            com uma visão dinâmica da complexidade organizacional, voltados para a atualização tecnológica e as demandas do mercado, podendo 
+            atuar também na inovação, planejamento, gerenciamento da infraestrutura, coordenação, desenvolvimento e evolução dos recursos e sistemas de informação.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://uemg.br/images/cursos/sistemas_informacao.jpg" alt="Sala de aula" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="courses" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Minicursos disponíveis (Ministrados por alunos)</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://www.topgadget.com.br/wp-content/uploads/2020/12/web-internet.png" alt="Curso 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Desenvolvimento Web</h5>
+              <p class="card-text">Aprenda a criar sites e aplicações web utilizando as mais modernas tecnologias e frameworks.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJujRbp0uAnYe66960J2JXCOcleE3LOJkPQ&usqp=CAU" alt="Curso 2" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Banco de Dados</h5>
+              <p class="card-text">Conheça as melhores práticas e ferramentas para lidar com o armazenamento e análise de dados.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm1wY0Zo3hxa6b1Y3sjnkyWRDRz61ToO3Neg&usqp=CAU" alt="Curso 3" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Inteligência Artificial</h5>
+              <p class="card-text">Explore as aplicações da inteligência artificial e aprenda a desenvolver sistemas inteligentes.</p>
+              <a href="#" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Entre em contato</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Mensagem</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Digite sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white py-3 text-center">
+    <div class="container">
+      <p>&copy; 2023 UEMG Carangola - Curso de Sistemas de Informação</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
